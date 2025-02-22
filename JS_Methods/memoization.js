@@ -53,7 +53,7 @@ const slowFunction = (num) => {
 const memoizedFunction = memoize(slowFunction);
 
 console.log(memoizedFunction(5)); // Computes and caches the result
-console.log(memoizedFunction(5)); // Fetches from cache
+console.log(memoizedFunction([5])); // Fetches from cache
 console.log(memoizedFunction(10)); // Computes and caches the result
 
 // o/p:
