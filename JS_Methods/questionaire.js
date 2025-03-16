@@ -57,3 +57,14 @@ const res2=arr.reduce((acc,item)=>{
 },[])
 console.log(res2,"question 2b")
 
+//############---------############ >>>>> Question 3 - sort array
+const numberArray = [5, 8, 2, 5, 3, 8, 1, 7, 2, 4,5];
+const rest=numberArray.filter((item,index)=>numberArray.indexOf(item)===index)
+// console.log(rest)
+const arrs=[]
+for (i=0;i<numberArray.length;i++){
+if(!arr.includes(numberArray[i])){
+ arr.push(numberArray[i])
+}
+}
+console.log(arrs)
